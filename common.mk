@@ -71,6 +71,9 @@ PRODUCT_PACKAGES += \
     gralloc.qcom \
     hwcomposer.qcom
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 $(call soong_config_set_bool,surfaceflinger,register_displayservice,true)
 $(call soong_config_set_bool,libui,legacy_gralloc,true)
 
