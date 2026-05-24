@@ -132,6 +132,7 @@ ro.crypto.volume.metadata.method=dm-default-key
 ro.crypto.volume.options=::v2
 
 # Display
+debug.renderengine.blur_algorithm=kawase2
 ro.surface_flinger.use_color_management=true
 ro.vendor.sf.detect.aod.enable=true
 vendor.display.comp_mask=0
